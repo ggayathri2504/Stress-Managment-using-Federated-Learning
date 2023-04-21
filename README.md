@@ -10,22 +10,21 @@ Overall, the Flask application is a step towards creating a stress level managem
 
 ## Steps involved in developing an application:
 
-  1.Data Collection: 
-  The targeted users for the stress management system are the working women faculty in reputed educational institutions. The educators would be guided to the respective website portal made for stress management. 
+  1.Data Collection: The targeted users for the stress management system are the working women faculty in reputed educational institutions. The educators would be guided to the respective website portal made for stress management. 
 
-  2. Data Preprocessing & Interpretation:
-  The surveys would then be filled in and submitted to the portal where a copy of the trained model would be giving some corrective suggestions to reduce the amount of stress of the user. If the educator has a wearable smart watch device, then the information from the respective device would be taken so that proper and constant follow up is maintained for the user. 
+  2. Data Preprocessing & Interpretation: The surveys would then be filled in and submitted to the portal where a copy of the trained model would be giving some corrective suggestions to reduce the amount of stress of the user. If the educator has a wearable smart watch device, then the information from the respective device would be taken so that proper and constant follow up is maintained for the user. 
 
-  3. On-Device Analysis with Data Privacy:
-  It is to be noted that the survey details filled and the wearable devices readings would not be hastily taken up to the server’s main trained model for better training the model, instead only the experience retained by the copy of the training model made available to each and every user in the form of parameters and weights needed for the model functioning along would be taken to the main server. 
+  3. On-Device Analysis with Data Privacy: It is to be noted that the survey details filled and the wearable devices readings would not be hastily taken up to the server’s main trained model for better training the model, instead only the experience retained by the copy of the training model made available to each and every user in the form of parameters and weights needed for the model functioning along would be taken to the main server. 
 
-  4. Edge Computing:
-  In order to follow up and understand the user’s mental wellbeing, a wearable smart device updates the stress levels of the user and gives a clear picture.
+  4. Edge Computing: In order to follow up and understand the user’s mental wellbeing, a wearable smart device updates the stress levels of the user and gives a clear picture.
 
-  5. Outcomes:
-  The stress management system would thus be used by the users to ultimately get rid of the stress people face most effectively and efficiently.
+  5. Outcomes: The stress management system would thus be used by the users to ultimately get rid of the stress people face most effectively and efficiently.
 
 BLOCK DIAGRAM:
+
+
+
+
 ![Screenshot 2023-04-21 150226](https://user-images.githubusercontent.com/63699036/233601675-522ae462-3ea5-49a3-b932-03c2da4dcb10.png)
 
 
