@@ -29,7 +29,7 @@ BLOCK DIAGRAM:
 
 
 
-## Protype Application Output:
+## Prototype Application Output:
 
 ### Home Screen:
 
