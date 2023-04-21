@@ -28,3 +28,25 @@ BLOCK DIAGRAM:
 ![Screenshot 2023-04-21 150226](https://user-images.githubusercontent.com/63699036/233601675-522ae462-3ea5-49a3-b932-03c2da4dcb10.png)
 
 
+
+## Protype Application Output:
+
+# Home Screen:
+
+![Screenshot 2023-04-21 150721](https://user-images.githubusercontent.com/63699036/233602935-33c0c31f-3749-432b-b9e1-9c6542c7dce3.png)
+
+
+# Survey Screen:
+
+![Screenshot 2023-04-21 150737](https://user-images.githubusercontent.com/63699036/233603040-55c41b14-2620-4543-b252-efe27f244798.png)
+
+
+# Result Screen:
+
+
+![Screenshot 2023-04-21 150753](https://user-images.githubusercontent.com/63699036/233603088-1ace0364-27b0-4ec3-9db2-dddebc1b96b2.png)
+
+
+
+
+
