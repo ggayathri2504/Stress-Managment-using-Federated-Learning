@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Page</title>
+	<style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            padding-top: 50px;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+	<h1>Questionnaire</h1>
+	<form method="POST" action="{{ url_for('index') }}">
+		<label for="sr">Snoring Rate:</label>
+		<input type="range" min="1" max="100" value="45" id="sr" name="sr" required>
+		<span id="srs"></span><br><br>
+		<label for="rr">Respiration Rate:</label>
+		<input type="range" min="0" max="100" value="16" id="rr" name="rr" required>
+		<span id="rrs"></span><br><br>
+		<label for="t">Body Temperature:</label>
+		<input type="range" min="85" max="99" value="95" id="t" name="t" required>
+		<span id="ts"></span><br><br>
+		<label for="lm">Number of Limb Movements during your nap:</label>
+		<input type="range" min="0" max="30" value="95" id="lm" name="lm" required>
+		<span id="lms"></span><br><br>
+		<label for="bo">Blood Oxygen Level:</label>
+		<input type="range" min="82" max="99" value="95" id="bo" name="bo" required>
+		<span id="bos"></span><br><br>
+		<label for="rem">How vividly do you have dreams?</label>
+		<input type="range" min="0" max="100" value="85" id="rem" name="rem" required>
+		<span id="rems"></span><br><br>
+		<label for="sr1">Sleeping Hours:</label>
+		<input type="range" min="0" max="9" value="7" id="sr1" name="sr1" required>
+		<span id="sr1s"></span><br><br>
+		<label for="hr">Heart Rate:</label>
+		<input type="range" min="50" max="120" value="85" id="hr" name="hr" required>
+		<span id="hrs"></span><br><br>
+		<input type="submit" value="Submit" required>
+	</form>
+	<script>
+	const sliders=document.querySelectorAll("input[type=range]");
+	sliders.forEach(function(slider){
+	const output=document.getElementById(slider.id+"s");
+	output.innerHTML=slider.value;
+	slider.addEventListener("input",function() {
+		output.innerHTML=this.value;
+		});
+	});
+	</script>
+</body>
+</html>
