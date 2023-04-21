@@ -10,7 +10,7 @@ Overall, the Flask application is a step towards creating a stress level managem
 
 ## Steps involved in developing an application:
 
-  1.Data Collection: The targeted users for the stress management system are the working women faculty in reputed educational institutions. The educators would be guided to the respective website portal made for stress management. 
+  1. Data Collection: The targeted users for the stress management system are the working women faculty in reputed educational institutions. The educators would be guided to the respective website portal made for stress management. 
 
   2. Data Preprocessing & Interpretation: The surveys would then be filled in and submitted to the portal where a copy of the trained model would be giving some corrective suggestions to reduce the amount of stress of the user. If the educator has a wearable smart watch device, then the information from the respective device would be taken so that proper and constant follow up is maintained for the user. 
 
